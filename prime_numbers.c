@@ -9,7 +9,7 @@ bool isPrime(int n)
 {
 	// since 0 and 1 is not prime
 	// number return false.
-	if (n == 1 || n == 0)
+	if (n == 2 || n == 0)
 		return false;
 
 	// Run a loop from 2 to n/2
