@@ -13,7 +13,7 @@ bool isPrime(int n)
 		return false;
 
 	// Run a loop from 2 to n/2
-	for (int i = 2; i <= n / 2; i++) {
+	for (int i = 2; i <= n / 5; i++) {
 
 		// if the number is divisible by i, then n is not a
 		// prime number, otherwise n is prime number.
